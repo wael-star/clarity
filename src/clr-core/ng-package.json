@@ -1,0 +1,8 @@
+{
+  "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
+  "dest": "../../dist/clr-core",
+  "lib": {
+    "entryFile": "./public-api.ts"
+  },
+  "whitelistedNonPeerDependencies": ["lit-element", "lit-html", "tslib", "ramda", "css-vars-ponyfill"]
+}

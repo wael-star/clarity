@@ -1,0 +1,39 @@
+{
+  "name": "@clr/core",
+  "version": "@VERSION",
+  "description": "Custom Elements for Clarity",
+  "homepage": "https://clarity.design",
+  "sideEffects": [
+    "./esm5/**/*.element.js",
+    "./esm2015/**/*.element.js",
+    "./**/clr-core-badge.js",
+    "./**/clr-core-button.js",
+    "./**/clr-core-test-dropdown.js",
+    "./**/clr-core-icon.js",
+    "./**/clr-core-tag.js"
+  ],
+  "main": "index.js",
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:vmware/clarity.git"
+  },
+  "dependencies": {
+    "lit-element": "^2.2.1",
+    "lit-html": "^1.1.2",
+    "tslib": "^1.10.0",
+    "ramda": "^0.26.1",
+    "css-vars-ponyfill": "^2.1.2"
+  },
+  "optionalDependencies": {
+    "@clr/city": "^1.0.0",
+    "@webcomponents/shadycss": "^1.9.3",
+    "@webcomponents/custom-elements": "^1.3.1",
+    "@webcomponents/webcomponentsjs": "^2.4.0"
+  },
+  "author": "clarity",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vmware/clarity/issues"
+  }
+}

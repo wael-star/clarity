@@ -1,0 +1,31 @@
+{
+  "angularCompilerOptions": {
+    "fullTemplateTypeCheck": true,
+    "strictInjectionParameters": true
+  },
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2015",
+    "resolveJsonModule": true,
+    "typeRoots": ["node_modules/@types"],
+    "paths": {
+      "@clr/angular": ["src/clr-angular"],
+      "@clr/icons": ["src/clr-icons"],
+      "@clr/icons/shapes/*": ["src/clr-icons/shapes", "src/clr-icons/shapes/*"],
+      "@clr/core": ["src/clr-core"],
+      "@clr/core/*": ["src/clr-core/*"]
+    },
+    "lib": ["es2017", "dom"]
+  },
+  "exclude": ["node_modules/**", "dist/**"]
+}
