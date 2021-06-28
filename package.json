@@ -127,7 +127,7 @@
     "lit-element": "2.2.1",
     "lit-html": "1.1.2",
     "normalize.css": "8.0.1",
-    "prismjs": "1.14.0",
+    "prismjs": "1.24.0",
     "ramda": "0.26.1",
     "rxjs": "6.5.2",
     "web-animations-js": "github:angular/web-animations-js#release_pr208",
